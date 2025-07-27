@@ -179,7 +179,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/yourusername/emile-local-ai/issues)
 - **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/yourusername/emile-local-ai/discussions)
-
+  
+---
 👨‍💻 Author
 Del Coburn
 University of Toronto

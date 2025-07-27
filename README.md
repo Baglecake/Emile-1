@@ -130,7 +130,7 @@ Navigate to `http://localhost:8501` in your web browser
 | `llama3` | 4.7GB | General conversation, reasoning | 8GB+ |
 | `codellama` | 3.8GB | Code analysis, programming help | 8GB+ |
 | `mistral` | 4.1GB | Creative writing, analysis | 8GB+ |
-| `gemma7b` | 1.7GB | Lightweight, fast responses | 5GB+ |
+| `gemma7b` | 5.0GB | Lightweight, fast responses | 8GB+ |
 | `phi3` | 2.3GB | Lightweight, fast responses | 4GB+ |
 | `gemma2b` | 1.7GB | Lightweight, fast responses | 4GB+ |
 

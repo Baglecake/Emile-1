@@ -86,6 +86,7 @@ Navigate to `http://localhost:8501` and start chatting with Émile!
 | `codellama` | 3.8GB | Code analysis, programming help |
 | `mistral` | 4.1GB | Creative writing, analysis |
 | `phi3` | 2.3GB | Lightweight, fast responses |
+| `gemma2b` | 1.7GB | Lightweight, fast responses |
 
 Install models with: `ollama pull <model-name>`
 

@@ -46,7 +46,7 @@ git clone https://github.com/yourusername/Emile-1.git
 cd Emile-1
 
 # Install Python dependencies
-pip install -r requirements.txt
+pip install -r requirements_txt.txt
 
 # Launch Émile
 streamlit run emile_complete_app.py

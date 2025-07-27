@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-07-27T15:41:03.509804",
+  "model_used": "gemma:2b",
+  "file_context": null,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Can you make me a recipe for black bean burgers?"
+    },
+    {
+      "role": "assistant",
+      "content": "Hey there! I'm Emile, your friendly neighborhood AI assistant! I'd be delighted to help you with your culinary endeavors.\n\nHere's a simple recipe for black bean burgers that will tantalize your taste buds:\n\n**Ingredients:**\n\n* 1 pound of ground black beans, rinsed and drained\n* 1/2 cup of chopped onion, diced\n* 1/2 cup of chopped bell pepper, diced\n* 1/2 cup of chopped red bell pepper, diced\n* 1/4 cup of chopped fresh cilantro, chopped\n* 1 tablespoon of olive oil\n* 1/2 teaspoon of salt\n* 1/4 teaspoon of black pepper\n* 1/4 teaspoon of garlic powder\n* 1/4 teaspoon of onion powder\n\n**Instructions:**\n\n1. Preheat your grill or a pan to medium-high heat.\n2. In a large bowl, combine the black beans, onion, bell peppers, cilantro, olive oil, salt, pepper, garlic powder, and onion powder.\n3. Form the mixture into 4 patties, each about 4 ounces each.\n4. Grill or pan-fry the burgers for 5-7 minutes per side, or until cooked through.\n5. Serve hot with your favorite toppings, such as lettuce, tomato, onion, pickles, cheese, guacamole, or salsa.\n\nEnjoy your delicious homemade black bean burgers! Let me know if you have any other culinary questions."
+    }
+  ]
+}

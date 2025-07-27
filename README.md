@@ -13,7 +13,7 @@
 
 A user-friendly Streamlit interface for running AI models locally via Ollama. Chat with AI models completely offline, upload files for context, and manage your conversations - all without any paywalls or privacy concerns!
 
-<img width="2940" height="1592" alt="image" src="https://github.com/user-attachments/assets/a9dc7d5b-7ab6-412a-a5fd-5148b17690d3" />
+<img width="2940" height="1595" alt="image" src="https://github.com/user-attachments/assets/95cd32d7-5a1c-4794-8766-07c73182421e" />
 
 ---
 

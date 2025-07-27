@@ -181,7 +181,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/yourusername/emile-local-ai/discussions)
   
 ---
-👨‍💻 Author
+
+## 👨‍💻 Author
 Del Coburn
 University of Toronto
 📧 del.coburn@mail.utoronto.ca

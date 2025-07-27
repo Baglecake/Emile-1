@@ -10,7 +10,7 @@ A user-friendly Streamlit interface for running AI models locally via Ollama. Ch
 - 📁 **File Context**: Upload text files (`.txt`, `.md`, `.py`, `.js`, `.html`, `.css`, `.json`) for contextual conversations
 - 💾 **Chat Management**: Save conversations as timestamped JSON files
 - 🔄 **Streaming Responses**: Real-time streaming responses for natural conversation flow
-- 🎨 **Clean UI**: Beautiful, intuitive interface built with Streamlit
+- 🎨 **Clean UI**: Intuitive interface built with Streamlit
 - 🔒 **Completely Private**: Everything runs locally - no data leaves your machine
 - 💰 **Zero Cost**: No API keys, subscriptions, or usage limits
 

@@ -1,1 +1,1 @@
-This directory contains the core files for your Émile assistant :)
+This directory contains the core files for your Émile assistant.

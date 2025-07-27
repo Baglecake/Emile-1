@@ -108,7 +108,7 @@ ollama pull phi3          # Microsoft's efficient model
 #### 3. **Émile Deployment**
 ```bash
 # Repository Setup
-git clone https://github.com/yourusername/Emile-1.git
+git clone https://github.com/Baglecake/Emile-1.git
 cd Emile-1
 
 # Dependency Installation
@@ -263,8 +263,8 @@ Task Manager          # Windows
 - **Encoding**: UTF-8 text encoding required
 
 ### **Support Channels**
-- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/yourusername/Emile-1/issues)
-- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/yourusername/Emile-1/discussions)
+- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/Baglecake/Emile-1/issues)
+- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/Baglecake/Emile-1/discussions)
 
 ---
 
@@ -337,7 +337,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
   title = {Émile-1: Personal Local AI Assistant},
   year = {2025},
   institution = {University of Toronto},
-  url = {https://github.com/yourusername/Emile-1}
+  url = {https://github.com/Baglecake/Emile-1}
 }
 ```
 

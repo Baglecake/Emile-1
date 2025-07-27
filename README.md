@@ -43,8 +43,8 @@ ollama pull phi3
 ### 3. Clone and Run Émile
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/emile-local-ai.git
-cd emile-local-ai
+git clone https://github.com/yourusername/Emile-1.git
+cd Emile-1
 
 # Install Python dependencies
 pip install -r requirements.txt

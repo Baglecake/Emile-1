@@ -1,59 +1,141 @@
 # 🤖 Émile-1: Your Personal Local AI Assistant
 
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF6B6B.svg)](https://streamlit.io)
+[![Ollama](https://img.shields.io/badge/Powered%20by-Ollama-000000.svg)](https://ollama.ai)
+[![University of Toronto](https://img.shields.io/badge/University%20of-Toronto-003F7F.svg)](https://www.utoronto.ca/)
+[![Research](https://img.shields.io/badge/Type-Research-brightgreen.svg)](https://github.com)
+
+**v1.0** - *Democratizing AI Access Through Local Computing*
+
+---
+
 A user-friendly Streamlit interface for running AI models locally via Ollama. Chat with AI models completely offline, upload files for context, and manage your conversations - all without any paywalls or privacy concerns!
 
-<img width="2940" height="1592" alt="image" src="https://github.com/user-attachments/assets/dcfeeb48-a1ee-42cf-9206-e3e9ae9ed239" />
+<img width="2940" height="1592" alt="image" src="https://github.com/user-attachments/assets/a9dc7d5b-7ab6-412a-a5fd-5148b17690d3" />
 
-## ✨ Features
+---
 
-- 🧠 **Model Selection**: Switch between any locally installed Ollama models
-- 📁 **File Context**: Upload text files (`.txt`, `.md`, `.py`, `.js`, `.html`, `.css`, `.json`) for contextual conversations
-- 💾 **Chat Management**: Save conversations as timestamped JSON files
-- 🔄 **Streaming Responses**: Real-time streaming responses for natural conversation flow
-- 🎨 **Clean UI**: Intuitive interface built with Streamlit
-- 🔒 **Completely Private**: Everything runs locally - no data leaves your machine
-- 💰 **Zero Cost**: No API keys, subscriptions, or usage limits
+## 🏗️ System Architecture
 
-## 🚀 Quick Setup
+```
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   Streamlit     │────│   Émile Core     │────│     Ollama      │
+│   Frontend      │    │   (Chat Logic)   │    │   (LLM Engine)  │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
+         │                        │                        │
+         │                        ▼                        │
+         │              ┌──────────────────┐               │
+         │              │  File Context    │               │
+         │              │   Management     │               │
+         │              └──────────────────┘               │
+         │                        │                        │
+         ▼                        ▼                        ▼
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│ Chat History    │────│ Model Selection  │────│ Local Storage   │
+│ Management      │    │ & Switching      │    │ (Private Data)  │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
+```
 
-### Prerequisites
-- Python 3.8+
-- Ollama installed and running
+---
 
-### 1. Install Ollama
+---
+
+## ✨ Core Features
+
+### 🧠 **Intelligent Model Management**
+- Dynamic detection of locally installed Ollama models
+- Seamless switching between models during conversations
+- Automatic chat history clearing on model changes for clean contexts
+
+### 📁 **Advanced File Context System**  
+- Support for multiple file types: `.txt`, `.md`, `.py`, `.js`, `.html`, `.css`, `.json`
+- Intelligent context integration using system-level prompting
+- Real-time file status indicators and context management
+
+### 💾 **Professional Chat Management**
+- Timestamped conversation exports with full metadata
+- JSON format preserving model information and file context
+- Session statistics and conversation analytics
+
+### 🎨 **User Experience**
+- Clean, intuitive Streamlit interface with emoji-enhanced navigation
+- Real-time streaming responses for natural conversation flow
+- Responsive design with sidebar controls and main chat area
+
+### 🔒 **Privacy & Performance**
+- **100% Local Processing**: No data transmission to external servers
+- **Zero Cost Operation**: No API keys, subscriptions, or usage limits
+- **Offline Capable**: Works completely without internet connection
+- **Memory Efficient**: Optimized for local hardware resources
+
+---
+
+---
+
+## 🚀 Installation & Setup
+
+### **System Requirements**
+- **Operating System**: macOS, Linux, or Windows
+- **Python**: 3.8 or higher
+- **Memory**: 8GB+ RAM recommended (16GB+ for larger models)
+- **Storage**: 5-50GB depending on models (each model typically 2-8GB)
+
+### **Quick Start Guide**
+
+#### 1. **Ollama Installation**
 ```bash
-# macOS/Linux
+# macOS/Linux (Recommended)
 curl -fsSL https://ollama.ai/install.sh | sh
 
 # Windows: Download from https://ollama.ai
+# Manual installation with GUI installer
 ```
 
-### 2. Download a Model
+#### 2. **Model Acquisition**
 ```bash
-# Start with Llama 3 (recommended)
+# Essential Base Model (Recommended for beginners)
 ollama pull llama3
 
-# Or try other models:
-ollama pull mistral
-ollama pull codellama
-ollama pull phi3
+# Additional High-Performance Models
+ollama pull mistral       # Fast general-purpose model
+ollama pull codellama     # Code analysis specialist  
+ollama pull gemma:7b      # Google's research model
+ollama pull phi3          # Microsoft's efficient model
 ```
 
-### 3. Clone and Run Émile
+#### 3. **Émile Deployment**
 ```bash
-# Clone the repository
+# Repository Setup
 git clone https://github.com/yourusername/Emile-1.git
 cd Emile-1
 
-# Install Python dependencies
+# Dependency Installation
 pip install -r requirements_txt.txt
 
-# Launch Émile
+# Launch Application
 streamlit run emile_complete_app.py
 ```
 
-### 4. Open Your Browser
-Navigate to `http://localhost:8501` and start chatting with Émile!
+#### 4. **Access Interface**
+Navigate to `http://localhost:8501` in your web browser
+
+---
+
+## 📊 Model Compatibility Matrix
+
+| Model | Size | Best For | Memory Req. |
+|-------|------|----------|-------------|
+| `llama3` | 4.7GB | General conversation, reasoning | 8GB+ |
+| `codellama` | 3.8GB | Code analysis, programming help | 8GB+ |
+| `mistral` | 4.1GB | Creative writing, analysis | 8GB+ |
+| `phi3` | 2.3GB | Lightweight, fast responses | 4GB+ |
+| `gemma2b` | 1.7GB | Lightweight, fast responses | 4GB+ |
+
+Install models with: `ollama pull <model-name>`
+
+---
 
 ## 📖 Usage Guide
 
@@ -86,7 +168,6 @@ Navigate to `http://localhost:8501` and start chatting with Émile!
 | `codellama` | 3.8GB | Code analysis, programming help |
 | `mistral` | 4.1GB | Creative writing, analysis |
 | `phi3` | 2.3GB | Lightweight, fast responses |
-| `gemma2b` | 1.7GB | Lightweight, fast responses |
 
 Install models with: `ollama pull <model-name>`
 
@@ -140,57 +221,146 @@ We welcome contributions! Here's how you can help:
 - Ollama Python client ≥ 0.1.0
 - Ollama server running locally
 
-## 🐛 Troubleshooting
+---
 
-### "Cannot connect to Ollama"
-- Ensure Ollama is running: `ollama serve`
-- Check if models are installed: `ollama list`
-- Verify Ollama is accessible on default port (11434)
+## 🐛 Troubleshooting & Diagnostics
 
-### "No models found"
-- Install at least one model: `ollama pull llama3`
-- Restart the Streamlit app after installing new models
+### **Common Issues & Solutions**
 
-### Performance Issues
-- Larger models (70B+) require significant RAM
-- Try smaller models like `phi3` for faster responses
-- Close other applications to free up system resources
+#### **Connection Errors**
+```bash
+# Error: "Cannot connect to Ollama"
+# Solution: Verify Ollama service status
+ollama serve          # Start Ollama manually
+ollama list           # Verify models are installed
+curl http://localhost:11434    # Test API connectivity
+```
 
-## 🎯 Roadmap
+#### **Model Detection Issues**  
+```bash
+# Error: "No models found"
+# Solution: Install and verify models
+ollama pull llama3    # Install base model
+ollama list           # Confirm installation
+# Restart Streamlit application
+```
 
-- [ ] PDF and document upload support
-- [ ] Custom system prompts
-- [ ] Conversation search and filtering
-- [ ] Model comparison interface
-- [ ] Plugin system for extensions
-- [ ] Mobile-responsive design
-- [ ] Batch file processing
+#### **Performance Optimization**
+```bash
+# For systems with limited RAM:
+ollama pull phi3      # Use lightweight model
+ollama pull gemma:2b  # Use smaller variant
 
-## 📄 License
+# Monitor system resources:
+htop                  # Linux/macOS
+Activity Monitor      # macOS GUI
+Task Manager          # Windows
+```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+#### **File Upload Issues**
+- **Supported formats**: `.txt`, `.md`, `.py`, `.js`, `.html`, `.css`, `.json`
+- **File size limit**: 10MB maximum per file
+- **Encoding**: UTF-8 text encoding required
 
-## 🙏 Acknowledgments
+### **Support Channels**
+- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/yourusername/Emile-1/issues)
+- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/yourusername/Emile-1/discussions)
 
-- [Ollama](https://ollama.ai) for making local AI accessible
-- [Streamlit](https://streamlit.io) for the excellent web framework
-- The open-source AI community for inspiration and models
+---
 
-## 💬 Support
+## 🔧 Advanced Configuration
 
-- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/yourusername/emile-local-ai/issues)
-- **Discussions**: Join the conversation in [GitHub Discussions](https://github.com/yourusername/emile-local-ai/discussions)
-  
+### **Environment Variables**
+```bash
+# Optional: Custom Ollama host
+export OLLAMA_HOST="http://localhost:11434"
+
+# Optional: Model storage location  
+export OLLAMA_MODELS="/custom/path/to/models"
+```
+
+### **Performance Tuning**
+```python
+# In emile_complete_app.py, adjust these parameters:
+# For faster responses (lower quality):
+temperature = 0.3
+max_tokens = 512
+
+# For higher quality (slower responses):
+temperature = 0.7  
+max_tokens = 2048
+```
+
+---
+
+---
+
+## 🎯 Project Roadmap
+
+### **Version History**
+- **v1.0** - Initial release with core chat functionality, model selection, and file context
+- **v1.1** - Planned: PDF support, conversation search, dark mode
+- **v1.2** - Planned: Plugin system, custom system prompts, batch processing
+
+### **Upcoming Features**
+- [ ] **Document Processing**: PDF and DOCX file support with text extraction
+- [ ] **Enhanced UI**: Dark/light theme toggle, responsive mobile design
+- [ ] **Advanced Context**: Multi-file context management, context summarization
+- [ ] **System Customization**: Custom system prompts, personality configuration
+- [ ] **Export Options**: Multiple export formats (PDF, Word, plain text)
+- [ ] **Performance Analytics**: Response time metrics, token usage tracking
+
+---
+
+## 🤝 Contributing to Émile
+
+We welcome contributions from the community! See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+### **Research & Academic Use**
+Émile-1 is designed to support research into local AI deployment and democratization of AI access. If you're using Émile in academic research, please consider:
+
+- Citing the project in academic publications
+- Sharing usage statistics and performance metrics
+- Contributing improvements back to the community
+- Documenting novel use cases and applications
+
+---
+
+## 📄 License & Attribution
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for complete details.
+
+### **Citation Information**
+```bibtex
+@software{emile_local_ai,
+  author = {Del Coburn},
+  title = {Émile-1: Personal Local AI Assistant},
+  year = {2025},
+  institution = {University of Toronto},
+  url = {https://github.com/yourusername/Emile-1}
+}
+```
+
 ---
 
 ## 👨‍💻 Author
-Del Coburn  
+
+**Del Coburn**  
 University of Toronto  
 📧 del.coburn@mail.utoronto.ca  
-For project-related questions, please use GitHub Issues or Discussions. For other inquiries, feel free to reach out via email.
+
+*For project-related questions, please use GitHub Issues or Discussions. For other inquiries, feel free to reach out via email.*
+
+### **Acknowledgments**
+- [Ollama](https://ollama.ai) for democratizing local AI model deployment
+- [Streamlit](https://streamlit.io) for the excellent web application framework  
+- The open-source AI community for inspiration and foundational models
+- University of Toronto for supporting open research initiatives
 
 ---
 
 **Made with ❤️ for democratizing AI access**
 
 *Émile runs completely locally - your conversations and files never leave your machine.*
+
+**Version**: v1.0 | **Last Updated**: 2025-07-27 | **Compatibility**: Ollama 0.1+, Streamlit 1.28+

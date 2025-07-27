@@ -1,5 +1,4 @@
-# Emile-1
-# 🤖 Émile - Your Personal Local AI Assistant
+# 🤖 Émile-1 - Your Personal Local AI Assistant
 
 A user-friendly Streamlit interface for running AI models locally via Ollama. Chat with AI models completely offline, upload files for context, and manage your conversations - all without any paywalls or privacy concerns!
 

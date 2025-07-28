@@ -174,7 +174,7 @@ These examples showcase the performance trade-offs between larger models that ex
 | `llama3` | 4.7GB | General conversation, reasoning |
 | `codellama` | 3.8GB | Code analysis, programming help |
 | `mistral` | 4.1GB | Creative writing, analysis |
-| `phi3` | 2.3GB | Lightweight, fast responses |
+| `phi3` | 2.3GB | Lightweight though capable, fast responses |
 
 Install models with: `ollama pull <model-name>`
 

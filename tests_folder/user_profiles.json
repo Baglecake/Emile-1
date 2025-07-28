@@ -1,0 +1,27 @@
+[
+  {
+    "id": 101,
+    "name": "Alicia Moon",
+    "email": "alicia@example.com",
+    "signup_date": "2023-06-15",
+    "active": true,
+    "preferences": {
+      "newsletter": true,
+      "notifications": [
+        "email",
+        "sms"
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "name": "Marcus Ray",
+    "email": "marcus@example.com",
+    "signup_date": "2022-11-22",
+    "active": false,
+    "preferences": {
+      "newsletter": false,
+      "notifications": []
+    }
+  }
+]

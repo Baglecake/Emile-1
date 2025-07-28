@@ -155,12 +155,13 @@ Install models with: `ollama pull <model-name>`
 - Upload a Python file and ask "How can I improve this code?"
 - Load a Markdown document and ask "Summarize the key points"
 - Share a JSON file and ask "Explain this data structure"
-
+  
+Example: Émile analyzing uploaded sensor data and detecting a temperature trend
 <img width="2940" height="1595" alt="image" src="https://github.com/user-attachments/assets/70273347-2863-4264-8e24-a68f4eaff21c" />
 
-### 📝 Example Conversations
+### 📝 More Example Conversations
 
-Want to see Émile in action? Check out some saved conversations with different models in our **[examples folder](./Chat_Examples/)**.
+Want to see more of Émile in action? Check out some saved conversations with different models in our **[examples folder](./Chat_Examples/)**.
 
 These examples showcase the performance trade-offs between larger models that excel at complex reasoning and smaller, more efficient models that are perfect for quick tasks.
 

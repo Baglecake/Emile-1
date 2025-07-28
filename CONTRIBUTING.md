@@ -50,8 +50,9 @@ Thank you for your interest in contributing to Émile-1! We welcome all contribu
 ## 🌟 Contribution Ideas
 
 ### High Priority
+- **Live Hotswapping**: Enable hotswapping of models while maintaining chat history
+- **Model Config Panel**: Allow user control over temperature and max_tokens - maintain safe defaults
 - **PDF Support**: Enable PDF file uploads for document analysis
-- **Dark Mode**: Add theme toggle for better user experience
 - **Better Error Handling**: More informative error messages
 - **Performance Metrics**: Show response times and token counts
 

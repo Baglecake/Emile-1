@@ -165,19 +165,6 @@ Want to see Émile in action? Check out some saved conversations with different 
 
 These examples showcase the performance trade-offs between larger models that excel at complex reasoning and smaller, more efficient models that are perfect for quick tasks.
 
-## 🛠 Available Models
-
-Émile works with any Ollama-compatible model. Popular choices:
-
-| Model | Size | Best For |
-|-------|------|----------|
-| `llama3` | 4.7GB | General conversation, reasoning |
-| `codellama` | 3.8GB | Code analysis, programming help |
-| `mistral` | 4.1GB | Creative writing, analysis |
-| `phi3` | 2.3GB | Lightweight though capable, fast responses |
-
-Install models with: `ollama pull <model-name>`
-
 ## 🔧 Configuration
 
 ### Custom Model Settings

@@ -6,7 +6,7 @@ Thank you for your interest in contributing to Émile-1! We welcome all contribu
 
 - **Democratize AI**: Make AI accessible to everyone without paywalls or privacy concerns
 - **User-Friendly**: Maintain a simple, intuitive interface that anyone can use
-- **User-Empowerment**: Empower the user with full control over model parameters and personal data
+- **User-Empowerment**: Empower the user with full control over model configuration and personal data
 - **Local-First**: Ensure everything runs locally with no external dependencies
 - **Open Source**: Keep the project transparent and community-driven
 

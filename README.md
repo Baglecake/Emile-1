@@ -49,7 +49,7 @@ A user-friendly Streamlit interface for running AI models locally via Ollama. Ch
 - Seamless switching between models during conversations
 - Automatic chat history clearing on model changes for clean contexts
 
-### 📁 **Advanced File Context System**  
+### 📁 **File Context System**  
 - Support for multiple file types: `.txt`, `.md`, `.py`, `.js`, `.html`, `.css`, `.json`
 - Intelligent context integration using system-level prompting
 - Real-time file status indicators and context management

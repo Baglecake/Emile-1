@@ -296,6 +296,7 @@ max_tokens = 2048
 - **v1.1** - Planned: PDF support, conversation search, dark mode
 - **v1.2** - Planned: Plugin system, custom system prompts, batch processing
 - **v1.3** - Planned: In-app configuration settings (ie - temperature, max_tokens)
+- **v1.4** - Planned: Live model hotswapping (no chat reset)
 
 ### **Upcoming Features**
 - [ ] **Document Processing**: PDF and DOCX file support with text extraction

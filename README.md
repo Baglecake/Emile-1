@@ -162,7 +162,7 @@ Install models with: `ollama pull <model-name>`
 ### Example: Émile analyzing uploaded monthly sales data and delivering a product report - Llama3
 <img width="2940" height="1596" alt="image" src="https://github.com/user-attachments/assets/d71698d3-dbbe-45b0-b4a8-4ab10fcd2e32" />
 
-### Example: Émile explaining the architecture of a machine learning model and describing its training data - Mistral
+### Example: Émile explaining the architecture of a machine learning model and its training data - Mistral
 <img width="2940" height="1596" alt="image" src="https://github.com/user-attachments/assets/b1ce4c32-00d6-406e-9e1e-dc2d059ba593" />
 
 > See **[tests folder](./test_context/)** for test files to upload for context.

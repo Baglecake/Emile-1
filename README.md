@@ -124,7 +124,7 @@ Navigate to `http://localhost:8501` in your web browser
 
 | Model | Size | Best For | Memory Req. |
 |-------|------|----------|-------------|
-| `gemma7b` | 5.0GB | General conversation, reasoning, and more complex tasks | 8GB+ |
+| `gemma2` | 5.0GB | General conversation, reasoning, and more complex tasks | 8GB+ |
 | `llama3` | 4.7GB | General conversation, reasoning | 8GB+ |
 | `codellama` | 3.8GB | Code analysis, programming help | 8GB+ |
 | `mistral` | 4.1GB | Creative writing, analysis | 8GB+ |

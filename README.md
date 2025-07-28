@@ -159,6 +159,12 @@ Install models with: `ollama pull <model-name>`
 - Load a Markdown document and ask "Summarize the key points"
 - Share a JSON file and ask "Explain this data structure"
 
+### 📝 Example Conversations
+
+Want to see Émile in action? Check out some saved conversations with different models in our **[examples folder](./Chat_Examples/)**.
+
+These examples showcase the performance trade-offs between larger models that excel at complex reasoning and smaller, more efficient models that are perfect for quick tasks.
+
 ## 🛠 Available Models
 
 Émile works with any Ollama-compatible model. Popular choices:

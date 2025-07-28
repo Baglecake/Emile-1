@@ -156,7 +156,7 @@ Install models with: `ollama pull <model-name>`
 - Load a Markdown document and ask "Summarize the key points"
 - Share a JSON file and ask "Explain this data structure"
   
-Example: Émile analyzing uploaded sensor data and detecting a temperature trend
+> Example: Émile analyzing uploaded sensor data and detecting a temperature trend
 <img width="2940" height="1595" alt="image" src="https://github.com/user-attachments/assets/70273347-2863-4264-8e24-a68f4eaff21c" />
 
 ### 📝 More Example Conversations

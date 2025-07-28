@@ -159,6 +159,8 @@ Install models with: `ollama pull <model-name>`
 > Example: Émile analyzing uploaded sensor data and detecting a temperature trend
 <img width="2940" height="1595" alt="image" src="https://github.com/user-attachments/assets/70273347-2863-4264-8e24-a68f4eaff21c" />
 
+> See **[examples folder](./test_context/)** for test files to upload for model context.
+
 ### 📝 More Example Conversations
 
 Want to see more of Émile in action? Check out some saved conversations with different models in our **[examples folder](./Chat_Examples/)**.

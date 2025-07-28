@@ -156,11 +156,14 @@ Install models with: `ollama pull <model-name>`
 - Load a Markdown document and ask "Summarize the key points"
 - Share a JSON file and ask "Explain this data structure"
   
-### Example: Émile analyzing uploaded sensor data and detecting a temperature trend
+### Example: Émile analyzing uploaded sensor data and detecting a temperature trend - Llama3
 <img width="2940" height="1595" alt="image" src="https://github.com/user-attachments/assets/70273347-2863-4264-8e24-a68f4eaff21c" />
 
-### Example: Émile analyzing uploaded monthly sales data and delivering a product report
+### Example: Émile analyzing uploaded monthly sales data and delivering a product report - Llama3
 <img width="2940" height="1596" alt="image" src="https://github.com/user-attachments/assets/d71698d3-dbbe-45b0-b4a8-4ab10fcd2e32" />
+
+### Example: Émile explaining the architecture of a machine learning model and describing its training data - Mistral
+<img width="2940" height="1596" alt="image" src="https://github.com/user-attachments/assets/b1ce4c32-00d6-406e-9e1e-dc2d059ba593" />
 
 > See **[tests folder](./test_context/)** for test files to upload for context.
 

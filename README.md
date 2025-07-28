@@ -95,10 +95,7 @@ curl -fsSL https://ollama.ai/install.sh | sh
 
 #### 2. **Model Acquisition**
 ```bash
-# Essential Base Model (Recommended for beginners)
-ollama pull llama3
-
-# Additional High-Performance Models
+ollama pull llama3        # Base Model (Recommended for beginners)
 ollama pull mistral       # Fast general-purpose model
 ollama pull codellama     # Code analysis specialist  
 ollama pull gemma:7b      # Google's research model

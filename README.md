@@ -16,8 +16,9 @@ This project presents a user-friendly Streamlit interface for running AI models 
 
 - **Version Features:**
   
-–> "Expert Mode": Allows full, dynamic user control over temperature, top-p, and max tokens. Configuration can be changed dynamically and/or reset during chat while maintaining conversation context.  
-–> Model hot-swapping: Change models dynamically during chats while preserving conversation. See how different models behave with a shared context!
+  –> "Expert Mode": Allows full, dynamic user control over temperature, top-p, and max tokens. Configuration can be changed dynamically and/or reset during chat while maintaining conversation context.
+
+  –> Model hot-swapping: Change models dynamically during chats while preserving conversation. See how different models behave with a shared context!
 
 <img width="2940" height="1664" alt="image" src="https://github.com/user-attachments/assets/571409d2-e980-465c-b352-a3b7bc0293bc" />
 

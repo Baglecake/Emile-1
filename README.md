@@ -14,6 +14,8 @@ This project presents a user-friendly Streamlit interface for running AI models 
 
 Émile-1 allows for consumer level engagement with models typically associated with research and proprietary testing. With a focus on user experience, this simple app encourages the democratization of AI development by empowering the user to engage with LLMs and gain an understanding of how different models operate and process information.
 
+> python3 -m streamlit run emile_v1_1.py
+
 - **Version Features:**
 
   –> Config presets for easy tuning. Adjust model parameters for different tasks.

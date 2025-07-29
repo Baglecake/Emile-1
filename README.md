@@ -15,7 +15,9 @@ This project presents a user-friendly Streamlit interface for running AI models 
 Émile-1 allows for consumer level engagement with models typically associated with research and proprietary testing. With a focus on user experience, this simple app encourages the democratization of AI development by empowering the user to engage with LLMs and gain an understanding of how different models operate and process information.
 
 - **Version Features:**
-  
+
+  –> Config presets for easy tuning. Adjust model parameters for different tasks.
+
   –> "Expert Mode": Allows full, dynamic user control over temperature, top-p, and max tokens. Configuration can be changed dynamically and/or reset during chat while maintaining conversation context.
 
   –> Model hot-swapping: Change models dynamically during chats while preserving conversation. See how different models behave with a shared context!

@@ -383,4 +383,4 @@ University of Toronto
 
 *Émile runs completely locally - your conversations and files never leave your machine.*
 
-**Version**: v1.0 | **Last Updated**: 2025-07-27 | **Compatibility**: Ollama 0.1+, Streamlit 1.28+
+**Version**: v1.1 | **Last Updated**: 2025-07-29 | **Compatibility**: Ollama 0.1+, Streamlit 1.28+

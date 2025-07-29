@@ -7,13 +7,23 @@
 [![University of Toronto](https://img.shields.io/badge/University%20of-Toronto-003F7F.svg)](https://www.utoronto.ca/)
 [![Research](https://img.shields.io/badge/Type-Research-brightgreen.svg)](https://github.com)
 
-**v1.0** - *Democratizing AI Access Through Local Computing*
-
+**v1.1** - *Democratizing AI Access Through Local Computing*
 ---
 
 This project presents a user-friendly Streamlit interface for running AI models locally via Ollama. Chat with AI models completely offline, upload files for context, and manage your conversations - all without any paywalls or privacy concerns! 
 
 Émile-1 allows for consumer level engagement with models typically associated with research and proprietary testing. With a focus on user experience, this simple app encourages the democratization of AI development by empowering the user to engage with LLMs and gain an understanding of how different models operate and process information.
+
+- **Version Features:**
+  
+–> "Expert Mode": Allows full, dynamic user control over temperature, top-p, and max tokens. Configuration can be changed dynamically and/or reset during chat while maintaining conversation context.  
+–> Model hot-swapping: Change models dynamically during chats while preserving conversation. See how different models behave with a shared context!
+
+<img width="2940" height="1664" alt="image" src="https://github.com/user-attachments/assets/571409d2-e980-465c-b352-a3b7bc0293bc" />
+
+## Version History
+
+**v1.0** - Basic and simple. Load models, upload files, and save chats!
 
 <img width="2940" height="1595" alt="image" src="https://github.com/user-attachments/assets/95cd32d7-5a1c-4794-8766-07c73182421e" />
 
